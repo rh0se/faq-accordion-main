@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'WorkSans';
+    src: url("assets/fonts/WorkSans-Italic-VariableFont_wght.ttf");
+    src: url("assets/fonts/WorkSans-VariableFont_wght.ttf");
+}
+
+:root {
+    /* COLORS */
+    --White: hsl(0, 0%, 100%);
+    --Light-pink: hsl(275, 100%, 97%);
+    --Grayish-purple: hsl(292, 16%, 49%);
+    --Dark-purple: hsl(292, 42%, 14%);
+    /* FONT */
+    --ff-work-sans: 'WorkSans';
+    --fw-regular: 400;
+    --fw-semi-bold: 600;
+    --fw-bold: 700;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/* prevent iOS font size change */
+html {
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    font-family: var(--ff-work-sans);
+    color: var(--Dark-purple);
+    min-height: 100vh;
+    font-size: 16px;
+    line-height: 1;
+    text-rendering: optimizeSpeed;
+    background-color: var(--Light-pink);
+}
+
+h1, h2, h3, h4 {
+    font-weight: inherit;
+}
+
+
+ul {
+    list-style: none;
+}
+
+input, button {
+    font-size: inherit;
+    line-height: inherit;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: inherit;
+}
+
+button {
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+main {
+    width:100%;
+    min-height:inherit;
+    background-image: url('assets/images/background-pattern-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: grid;
+}
+
+section {
+    margin: 10em auto;
+    /* place-self:center; */
+    padding: 1em;
+    width: min(90%, 500px);
+    background-color: var(--White);
+    border-radius: 10px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: var(--fw-bold);
+    gap: 1em;
+}
+
+.header img {
+    width: 1.2em;
+}
+
+.question{
+    font-size: 1em;
+    font-weight: var(--fw-bold);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4em 0;
+}
+
+.question p {
+    width: 80%;
+}
+
+li:not(:nth-of-type(4)) {
+    border-bottom: 2px solid var(--Light-pink);
+}
+
+.plus {
+    width: 1.5em;
+}
+
+.plus img {
+    width: 100%;
+}
+.answer {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
