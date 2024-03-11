@@ -118,10 +118,11 @@ section {
     width: 75%;
 }
 
-.question-btn:hover, .question-btn:focus, .question-btn:active {
+.question-btn:hover, .question-btn:active{
     color:var(--Grayish-purple);
+    font-weight: var(--fw-bold);
     cursor: pointer;
-    border: 2px solid var(--Grayish-purple);
+ /*    border: 2px solid var(--Grayish-purple); */
 }
 
 li:not(:nth-of-type(4)) {
@@ -141,6 +142,12 @@ li:not(:nth-of-type(4)) {
 }
 .answer {
     display: none;
+}
+
+.answer p {
+    color: var(--Grayish-purple);
+    line-height: 1.3;
+    padding-bottom: 1.4em;
 }
 
 .attribution { 
