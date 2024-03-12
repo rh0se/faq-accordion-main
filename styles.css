@@ -85,7 +85,7 @@ main {
 }
 
 section {
-    margin: 10em auto auto;
+    margin: 10em auto 2em;
     /* place-self:center; */
     padding: 1em;
     width: min(90%, 525px);
@@ -137,8 +137,8 @@ li:not(:nth-of-type(4)) {
     width: 100%;
 }
 
-.plus:focus {
-    border: 1px solid var(--Grayish-purple);
+.plus img:hover {
+     border: 1px dashed var(--Grayish-purple);
 }
 .answer {
     display: none;
@@ -146,8 +146,9 @@ li:not(:nth-of-type(4)) {
 
 .answer p {
     color: var(--Grayish-purple);
-    line-height: 1.3;
+    line-height: 1.4;
     padding-bottom: 1.4em;
+    font-size: 15px;
 }
 
 .attribution { 
@@ -163,7 +164,7 @@ li:not(:nth-of-type(4)) {
         background-image: url('assets/images/background-pattern-desktop.svg');
     }
     section {
-        margin: 12em auto auto;
+        margin: 12em auto 2em;
         padding: 2em 2em 1em;
     }
     .question-btn{
