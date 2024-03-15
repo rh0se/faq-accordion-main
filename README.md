@@ -55,11 +55,6 @@ A major thing i learnt is how to use the forEach method with an array.
 
 To see how you can add code snippets, see below:
 
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
 ```js
 questions.forEach(question => question.addEventListener("click", showAnswer));
 ```
@@ -67,9 +62,8 @@ questions.forEach(question => question.addEventListener("click", showAnswer));
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+- DOM events with JavaScript
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 
@@ -80,7 +74,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Linkedin - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Linkedin - [Rhoda](www.linkedin.com/in/rhoda-ojetola)
+- Twitter - [@NerdySimi](https://twitter.com/NerdySimi)
+- Frontend Mentor - [@Rhoda](https://www.frontendmentor.io/profile/rh0se)
 
