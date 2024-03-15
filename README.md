@@ -53,7 +53,6 @@ Users should be able to:
 
 A major thing i learnt is how to use the forEach method with an array. 
 
-To see how you can add code snippets, see below:
 
 ```js
 questions.forEach(question => question.addEventListener("click", showAnswer));
@@ -74,7 +73,7 @@ questions.forEach(question => question.addEventListener("click", showAnswer));
 
 ## Author
 
-- Linkedin - [Rhoda](www.linkedin.com/in/rhoda-ojetola)
+- Linkedin - [Rhoda](https://www.linkedin.com/in/rhoda-ojetola)
 - Twitter - [@NerdySimi](https://twitter.com/NerdySimi)
 - Frontend Mentor - [@Rhoda](https://www.frontendmentor.io/profile/rh0se)
 
