@@ -6,7 +6,7 @@ const questions = [
 ]
 
 
-const showAnswer = (event) => {
+ const showAnswer = (event) => {
     let targetQuestion = event.target.value;
     if (targetQuestion === null || targetQuestion === undefined) {
         targetQuestion = event.target.getAttribute("id");
@@ -26,4 +26,4 @@ const showAnswer = (event) => {
     
 }
 
-questions.forEach(question => question.addEventListener("click", showAnswer));
+questions.forEach(question => question.addEventListener("click", showAnswer)); 

@@ -61,7 +61,8 @@ questions.forEach(question => question.addEventListener("click", showAnswer));
 
 ### Continued development
 
-- DOM events with JavaScript
+- DOM events with JavaScript.
+- Got a community feedback to use details and summary html elements to make the accordions more accessible. Will work on that.
 
 
 ### Useful resources
