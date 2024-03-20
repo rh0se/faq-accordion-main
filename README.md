@@ -47,29 +47,27 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- vanilla Javascript
+
 
 ### What I learned
 
-A major thing i learnt is how to use the forEach method with an array. 
+A major thing i learnt is how to use the the details and summary elements. 
 
 
-```js
-questions.forEach(question => question.addEventListener("click", showAnswer));
+```html
+<details class="faqs-item" id="question-one" open>
 ```
 
 
 ### Continued development
 
-- DOM events with JavaScript.
-- Got a community feedback to use details and summary html elements to make the accordions more accessible. Will work on that.
+- learn more sematic html elements
 
 
 ### Useful resources
 
 - [FreeCodeCamp](https://www.freecodecamp.org/news/nth-child-vs-nth-of-type-selector-in-css/#:~:text=nth%2Dchild()%20selects%20its,%3E%20%2C%20and%20.) - This helped me understand the difference between nth-child() vs nth-of-type() Selectors in CSS.
-- [W3Schools](https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp) - This is an amazing article which helped me finally with the toogle of hiding and showing elements. I'd recommend it to anyone still learning this concept.
-- [JS Craft](https://www.js-craft.io/blog/using-addeventlistener-on-multiple-elements-in-javascript/) - This is an amazing article on how to use forEach method to call addEventListener on multiple elements.
+- [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details) and [web.dev](https://web.dev/learn/html/details) This helped me understand the details and summary elements
 
 
 ## Author

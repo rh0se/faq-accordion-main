@@ -87,7 +87,7 @@ section {
     margin: 10em auto 2em;
     /* place-self:center; */
     padding: 1em;
-    width: min(90%, 525px);
+    width: min(90%, 550px);
     background-color: var(--White);
     border-radius: 10px;
 }
@@ -104,19 +104,8 @@ section {
     width: 1.2em;
 }
 
-
-summary {
-    color: var(--Dark-purple);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    list-style: none;
-    font-size: 1em;
-    font-weight: var(--fw-semi-bold);
-}
-
-summary span {
-    width: 70%;
+li:not(:nth-of-type(4)) {
+    border-bottom: 2px solid var(--Light-pink);
 }
 
 details {
@@ -132,6 +121,30 @@ details[open] summary img{
     content: url("./assets/images/icon-minus.svg");
 }
 
+summary {
+    width: 100%;
+    color: var(--Dark-purple);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 1em;
+    font-weight: var(--fw-semi-bold);
+}
+
+summary span {
+    width: 70%;
+}
+
+summary:hover, summary:active{
+    color:var(--Grayish-purple);
+    font-weight: var(--fw-bold);
+    cursor: pointer;
+ /*    border: 2px solid var(--Grayish-purple); */
+}
+
+
+
 /* summary::after {
     background-image: url('./assets/images/icon-plus.svg');
     background-size: 25px 25px;
@@ -140,30 +153,20 @@ details[open] summary img{
     content:"";
 } */
 
-div.question{
+/* divsummary{
     font-size: 1em;
     font-weight: var(--fw-semi-bold);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1.4em 0;
-}
+} */
 
-.question-btn{
-    width: 100%;
-    color: var(--Dark-purple);
-}
 
-.question-btn:hover, .question-btn:active{
-    color:var(--Grayish-purple);
-    font-weight: var(--fw-bold);
-    cursor: pointer;
- /*    border: 2px solid var(--Grayish-purple); */
-}
 
-li:not(:nth-of-type(4)) {
-    border-bottom: 2px solid var(--Light-pink);
-}
+
+
+
 
 .plus {
     width: 1.5em;
@@ -180,10 +183,10 @@ li:not(:nth-of-type(4)) {
 /* .answer {
     display: none;
 } */
-.answer p {
+.answer {
     color: var(--Grayish-purple);
     line-height: 1.4;
-    padding-bottom: 1.4em;
+    padding: 1.4em 0;
     font-size: 15px;
 }
 
@@ -203,7 +206,7 @@ li:not(:nth-of-type(4)) {
         margin: 12em auto 2em;
         padding: 2em 2em 1em;
     }
-    /* .question-btn{
+    /* summary{
         width: 95%;
     } */
     summary span {
